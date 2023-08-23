@@ -28,10 +28,10 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <div className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@email.com
+        <a className="underline" href="mailto:chen_natalie@outlook.com">
+          chen_natalie@outlook.com
         </a>{" "}
         or through this form.
         <form
@@ -62,7 +62,7 @@ export default function Contact() {
           />
           <SubmitBtn />
         </form>
-      </p>
+      </div>
     </motion.section>
   );
 }

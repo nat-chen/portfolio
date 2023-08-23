@@ -35,25 +35,25 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Overseas Trading Sales",
-    location: "Dongguang, CN",
+    title: "Full-Stack Developer",
+    location: "Shanghai, CN",
     description: "To be completed",
-    icon: React.createElement(LuGraduationCap),
-    date: "2014 ~ 2018",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
   {
     title: "Front-End Developer",
     location: "Shenzhen, CN",
     description: "To be completed",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "2018 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Shanghai, CN",
+    title: "Overseas Trading Sales",
+    location: "Dongguang, CN",
     description: "To be completed",
-    icon: React.createElement(FaReact),
-    date: "2022 - present",
+    icon: React.createElement(LuGraduationCap),
+    date: "2014 ~ 2018",
   },
 ] as const;
 
