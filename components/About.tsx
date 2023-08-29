@@ -17,26 +17,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        My core stack includes{" "}
+        <span className="font-bold underline">
+          React, Vue, Next, Node, Nest
+        </span>{" "}
+        for implementing highly scalable, high-performance projects from concept
+        to deployment. I am always eager to learn new technologies, currently
+        focusing on.<span className="italic">Java</span>
       </p>
 
       <p>
-        <span className="italic">When I&#39;m not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I&#39;m
-        also learning how to play the guitar.
+        When I&#39;m not programming, I enjoy engaging in various other hobbies.
+        I have a passion for cooking delicious meals and watching movies.
+        Additionally, I find relaxation through running.
       </p>
     </motion.section>
   );
