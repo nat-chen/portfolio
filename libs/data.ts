@@ -51,7 +51,8 @@ export const experiencesData = [
   {
     title: "Overseas Sales Representative",
     location: "Dongguang, CN",
-    description: "To be completed",
+    description:
+      "Managed overseas trade sales for an international trade company specializing in artificial flowers",
     icon: React.createElement(CgWorkAlt),
     date: "2014/05 ~ 2017/12",
   },
@@ -75,7 +76,7 @@ export const projectsData = [
     title: "Portfolio",
     description:
       "Designed a personal website showcasing information, experience, and project previews",
-    tags: ["Nest", "React"],
+    tags: ["Next", "React", "Tailwind", "Framer Motion"],
     imageUrl: projectImage3,
   },
 ] as const;
